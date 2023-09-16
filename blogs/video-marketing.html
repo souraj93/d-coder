@@ -204,6 +204,30 @@
       background: none !important;
       padding: 0 !important;
     }
+    #top-header .top-header-wrapper {
+      display: flex; 
+      justify-content: space-between;
+    }
+    #top-header .top-header-wrapper .left-ul li {
+      font-size: 14px;
+    }
+    #top-header .top-header-wrapper .right-ul {
+      margin: 5px 27px 5px 0;
+    }
+    @media (max-width:700px) {
+      #top-header .top-header-wrapper {
+        display: block; 
+      }
+      #top-header .top-header-wrapper .left-ul li {
+        font-size: 12px;
+      }
+      #top-header .top-header-wrapper .right-ul {
+        margin: 5px 20px 5px 0;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+      }
+    }
   </style>
   <link rel="stylesheet" id="wp-block-library-css"
     href="https://numerique.vamtam.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2" type="text/css"
@@ -820,7 +844,7 @@
             <li style="font-size: 14px;"><a href="tel:8240732278"><img style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
                   src="../images/icons/phone.svg" />8240732278</a> </li>
             <li style="font-size: 14px;"><a href=""
-                onclick="window.open('https://wa.me/8240592073?text=Hi,%20welcome%20to%20urbanwebS.%20Here%20are%20the%20categories%0A%20plumbing%0A%20home%20cleaning')"><img
+                onclick="window.open('https://wa.me/8240592073')"><img
                   style="width: 15px; margin: 0 3px 0 5px; vertical-align: middle;" src="../images/icons/whatsapp.svg" />8240266320</a> </li>
           </ul>
         </div>
@@ -995,6 +1019,27 @@
     <section
       class="elementor-section elementor-top-section elementor-element elementor-element-a51dd12 elementor-hidden-tablet elementor-hidden-mobile elementor-section-items-stretch elementor-section-content-middle vamtam-sticky-header vamtam-sticky-header--spacer vamtam-sticky-header--transparent-header elementor-section-height-min-height elementor-section-boxed elementor-section-height-default"
       data-id="a51dd12" data-element_type="section">
+      <div class="" style=" background-color: #fff;">
+        <div class="">
+          <ul class="" style="display: flex; list-style: none; margin: 5px 0;">
+            <li style="font-size: 14px;"><a href="mailto:support@d-coder.in"><img
+                  style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
+                  src="../images/icons/email.svg" />support@d-coder.in</a></li>
+            <li style="font-size: 14px;"><a href="tel:8240732278"><img
+                  style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
+                  src="../images/icons/phone.svg" />8240732278</a> </li>
+            <li style="font-size: 14px;"><a href=""
+                onclick="window.open('https://wa.me/8240592073')"><img
+                  style="width: 15px; margin: 0 3px 0 5px; vertical-align: middle;"
+                  src="../images/icons/whatsapp.svg" />8240266320</a> </li>
+          </ul>
+        </div>
+        <div class="">
+          <ul style="list-style: none; margin: 5px 27px 5px 0;">
+            <li>Chinar Park, Rajarhat, 700136</li>
+          </ul>
+        </div>
+      </div>
       <div class="elementor-container elementor-column-gap-no">
         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-be8cc84"
           data-id="be8cc84" data-element_type="column">
@@ -1187,7 +1232,28 @@
             </div>
             <section
               class="elementor-section elementor-inner-section elementor-element elementor-element-3ec1ab5 elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default"
-              data-id="3ec1ab5" data-element_type="section">
+              data-id="3ec1ab5" data-element_type="section" id="top-header">
+              <div class="top-header-wrapper" style="background-color: #fff;">
+                <div class="">
+                  <ul class="left-ul" style="display: flex; list-style: none; margin: 5px 0; padding-left: 0;">
+                    <li><a href="mailto:support@d-coder.in"><img
+                          style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
+                          src="../images/icons/email.svg" />support@d-coder.in</a></li>
+                    <li><a href="tel:8240732278"><img
+                          style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
+                          src="../images/icons/phone.svg" />8240732278</a> </li>
+                    <li><a href=""
+                        onclick="window.open('https://wa.me/8240592073')"><img
+                          style="width: 15px; margin: 0 3px 0 5px; vertical-align: middle;"
+                          src="../images/icons/whatsapp.svg" />8240266320</a> </li>
+                  </ul>
+                </div>
+                <div class="">
+                  <ul class="right-ul" style="list-style: none;">
+                    <li>Chinar Park, Rajarhat, 700136</li>
+                  </ul>
+                </div>
+              </div>
               <div class="elementor-container elementor-column-gap-no">
                 <div
                   class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-88e2cc2"
@@ -1243,37 +1309,37 @@
                                 class="elementor-item">Marketing Solutions</a>
                                 <ul class="sub-menu elementor-nav-menu--dropdown">
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1428">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/"
-                                      class="elementor-sub-item">Web design & development</a>
+                                    <a href="../products/app"
+                                      class="elementor-sub-item">App design & development</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/"
+                                    <a href="../products/smo"
                                       class="elementor-sub-item">Social media optimization</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/email-marketing/"
+                                    <a href="../products/email"
                                       class="elementor-sub-item">Email marketing</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/google-shopping/"
+                                    <a href="../products/google-ad"
                                       class="elementor-sub-item">Google Ad</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/"
-                                      class="elementor-sub-item">App design & development</a>
+                                    <a href="../products/web"
+                                      class="elementor-sub-item">Web design & development</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
-                                    <a href="./products/ppc"
+                                    <a href="../products/ppc"
                                       class="elementor-sub-item">Paid search
                                       marketing</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/"
+                                    <a href="../products/seo"
                                       class="elementor-sub-item">Search engine
                                       optimization</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/"
+                                    <a href="../products/smm"
                                       class="elementor-sub-item">Social media
                                       marketing</a>
                                   </li>
@@ -1301,26 +1367,26 @@
                                 tabindex="-1">Marketing Solutions</a>
                                 <ul class="sub-menu elementor-nav-menu--dropdown">
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1428">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/"
-                                      class="elementor-sub-item" tabindex="-1">Web design & development</a>
+                                    <a href="../products/app"
+                                      class="elementor-sub-item" tabindex="-1">App design & development</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/"
+                                    <a href="../products/smo"
                                       class="elementor-sub-item" tabindex="-1">Social media optimization</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/email-marketing/"
+                                    <a href="../products/email"
                                       class="elementor-sub-item" tabindex="-1">Email
                                       marketing</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/google-shopping/"
+                                    <a href="../products/google-ad"
                                       class="elementor-sub-item" tabindex="-1">Google
                                       Ad</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/"
-                                      class="elementor-sub-item" tabindex="-1">App design & development</a>
+                                    <a href="../products/web"
+                                      class="elementor-sub-item" tabindex="-1">Web design & development</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
                                     <a href="https://numerique.vamtam.com/marketing-solutions/paid-search-marketing/"
@@ -1328,12 +1394,12 @@
                                       search marketing</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/"
+                                    <a href="../products/seo"
                                       class="elementor-sub-item" tabindex="-1">Search
                                       engine optimization</a>
                                   </li>
                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                    <a href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/"
+                                    <a href="../products/smm"
                                       class="elementor-sub-item" tabindex="-1">Social
                                       media marketing</a>
                                   </li>
@@ -1489,13 +1555,13 @@
                         <img width="1170" height="798"
                           src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201170%20798'%3E%3C/svg%3E"
                           class="attachment-full size-full wp-image-1392" alt
-                          data-lazy-srcset="https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy.jpg 1170w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-300x205.jpg 300w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-1024x698.jpg 1024w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-768x524.jpg 768w"
+                          data-lazy-srcset="../images/blogs/blog1.webp 1170w, ../images/blogs/blog1.webp 300w, ../images/blogs/blog1.webp 1024w, ../images/blogs/blog1.webp 768w"
                           data-lazy-sizes="(max-width: 1170px) 100vw, 1170px"
-                          data-lazy-src="https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy.jpg" /><noscript><img
+                          data-lazy-src="../images/blogs/blog1.webp" /><noscript><img
                             width="1170" height="798"
-                            src="https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy.jpg"
+                            src="../images/blogs/blog1.webp"
                             class="attachment-full size-full wp-image-1392" alt=""
-                            srcset="https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy.jpg 1170w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-300x205.jpg 300w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-1024x698.jpg 1024w, https://numerique.vamtam.com/wp-content/uploads/2023/05/milad-fakurian-58Z17lnVS4U-unsplash-Copy-768x524.jpg 768w"
+                            srcset="../images/blogs/blog1.webp 1170w, ../images/blogs/blog1.webp 300w, ../images/blogs/blog1.webp 1024w, ../images/blogs/blog1.webp 768w"
                             sizes="(max-width: 1170px) 100vw, 1170px" /></noscript>
                       </div>
                     </div>
@@ -1626,13 +1692,13 @@
                                       <img decoding="async" width="1686" height="946"
                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201686%20946'%3E%3C/svg%3E"
                                         class="attachment-2048x2048 size-2048x2048 wp-image-6600" alt
-                                        data-lazy-srcset="https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy.jpg 1686w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-300x168.jpg 300w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-1024x575.jpg 1024w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-768x431.jpg 768w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-1536x862.jpg 1536w"
+                                        data-lazy-srcset="../images/blogs/video.webp 1686w, ../images/blogs/video.webp 300w, ../images/blogs/video.webp 1024w, ../images/blogs/video.webp 768w, ../images/blogs/video.webp 1536w"
                                         data-lazy-sizes="(max-width: 1686px) 100vw, 1686px"
-                                        data-lazy-src="https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy.jpg" /><noscript><img
+                                        data-lazy-src="../images/blogs/video.webp" /><noscript><img
                                           decoding="async" width="1686" height="946"
-                                          src="https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy.jpg"
+                                          src="../images/blogs/video.webp"
                                           class="attachment-2048x2048 size-2048x2048 wp-image-6600" alt=""
-                                          srcset="https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy.jpg 1686w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-300x168.jpg 300w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-1024x575.jpg 1024w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-768x431.jpg 768w, https://numerique.vamtam.com/wp-content/uploads/2023/05/pexels-steve-johnson-1044989-copy-1536x862.jpg 1536w"
+                                          srcset="../images/blogs/video.webp 1686w, ../images/blogs/video.webp 300w, ../images/blogs/video.webp 1024w, ../images/blogs/video.webp 768w, ../images/blogs/video.webp 1536w"
                                           sizes="(max-width: 1686px) 100vw, 1686px" /></noscript>
                                     </div>
                                   </div>
@@ -2075,7 +2141,7 @@
                               href="https://numerique.vamtam.com/marketing-solutions/paid-search-marketing/"
                               class="elementor-item">Paid search marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1468"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/"
+                              href="../products/seo"
                               class="elementor-item">Search engine optimization</a></li>
                         </ul>
                       </nav>
@@ -2085,7 +2151,7 @@
                               href="https://numerique.vamtam.com/marketing-solutions/paid-search-marketing/"
                               class="elementor-item" tabindex="-1">Paid search marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1468"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/"
+                              href="../products/seo"
                               class="elementor-item" tabindex="-1">Search engine optimization</a></li>
                         </ul>
                       </nav>
@@ -2101,20 +2167,20 @@
                         class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
                         <ul id="menu-1-209b4f9" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/email-marketing/"
+                              href="../products/email"
                               class="elementor-item">Email marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1470"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/"
+                              href="../products/smo"
                               class="elementor-item">Social Media Optimization</a></li>
                         </ul>
                       </nav>
                       <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                         <ul id="menu-2-209b4f9" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/email-marketing/"
+                              href="../products/email"
                               class="elementor-item" tabindex="-1">Email marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1470"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/"
+                              href="../products/smo"
                               class="elementor-item" tabindex="-1">Social Media Optimization</a></li>
                         </ul>
                       </nav>
@@ -2130,20 +2196,20 @@
                         class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
                         <ul id="menu-1-d5984ba" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/"
+                              href="../products/smm"
                               class="elementor-item">Social Media Marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/google-shopping/"
+                              href="../products/google-ad"
                               class="elementor-item">Google Ads</a></li>
                         </ul>
                       </nav>
                       <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                         <ul id="menu-2-d5984ba" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/"
+                              href="../products/smm"
                               class="elementor-item" tabindex="-1">Social Media Marketing</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/google-shopping/"
+                              href="../products/google-ad"
                               class="elementor-item" tabindex="-1">Google Ads</a></li>
                         </ul>
                       </nav>
@@ -2159,20 +2225,20 @@
                         class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
                         <ul id="menu-1-a4c35e0" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/"
+                              href="../products/web"
                               class="elementor-item">Web Development</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1474"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/"
+                              href="../products/app"
                               class="elementor-item">App Design</a></li>
                         </ul>
                       </nav>
                       <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                         <ul id="menu-2-a4c35e0" class="elementor-nav-menu sm-vertical">
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/"
+                              href="../products/web"
                               class="elementor-item" tabindex="-1">Web Development</a></li>
                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1474"><a
-                              href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/"
+                              href="../products/app"
                               class="elementor-item" tabindex="-1">App Design</a></li>
                         </ul>
                       </nav>
@@ -2608,12 +2674,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/">
+                              href="../products/seo">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-goal"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/search-engine-optimization/">
+                              <a href="../products/seo">
                                 Search Engine Optimization </a>
                             </h5>
                           </div>
@@ -2627,12 +2693,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/email-marketing/">
+                              href="../products/email">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-email"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/email-marketing/">
+                              <a href="../products/email">
                                 Email Marketing </a>
                             </h5>
                           </div>
@@ -2646,12 +2712,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/">
+                              href="../products/smo">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-rocket"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/conversion-rate-optimization/">
+                              <a href="../products/smo">
                                 Social Media Optimization </a>
                             </h5>
                           </div>
@@ -2671,12 +2737,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/">
+                              href="../products/smm">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-social-media"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/social-media-marketing/">
+                              <a href="../products/smm">
                                 Social Media Marketing </a>
                             </h5>
                           </div>
@@ -2690,12 +2756,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/google-shopping/">
+                              href="../products/google-ad">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-google"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/google-shopping/">
+                              <a href="../products/google-ad">
                                 Google Ad </a>
                             </h5>
                           </div>
@@ -2709,12 +2775,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/">
+                              href="../products/web">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-influencer"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/influencer-marketing/">
+                              <a href="../products/web">
                                 Web Design & Development </a>
                             </h5>
                           </div>
@@ -2728,12 +2794,12 @@
                         <div class="elementor-icon-box-wrapper">
                           <div class="elementor-icon-box-icon">
                             <a class="elementor-icon elementor-animation-"
-                              href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/">
+                              href="../products/app">
                               <i aria-hidden="true" class="vamtamtheme- vamtam-theme-amazon"></i> </a>
                           </div>
                           <div class="elementor-icon-box-content">
                             <h5 class="elementor-icon-box-title">
-                              <a href="https://numerique.vamtam.com/marketing-solutions/amazon-shopping/">
+                              <a href="../products/app">
                                 App Design & Development </a>
                             </h5>
                           </div>
@@ -2768,16 +2834,6 @@
                         <div class="elementor-spacer">
                           <div class="elementor-spacer-inner"></div>
                         </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-element elementor-element-5488159d elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading"
-                      data-id="5488159d" data-element_type="widget"
-                      data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
-                      <div class="elementor-widget-container">
-                        <div class="elementor-heading-title elementor-size-default"><a
-                            href="https://numerique.vamtam.com/marketing-solutions/">Explore
-                            all solutions</a></div>
                       </div>
                     </div>
                     <div
